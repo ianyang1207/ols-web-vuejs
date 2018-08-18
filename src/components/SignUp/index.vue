@@ -102,7 +102,7 @@
           switch(e.response.status){
             case 404:
               this.$notify({
-                title: `404错误`,
+                title: `错误`,
                 message: '找不到资源，请确认...',
                 type: 'error'
               });
@@ -116,7 +116,7 @@
               break;
             default:
               this.$notify({
-                title: `服务器错误`,
+                title: `错误`,
                 message: '服务器连接失败，请稍后...',
                 type: 'error'
               });
