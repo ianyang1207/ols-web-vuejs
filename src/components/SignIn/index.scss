@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 40px 44px;
+
+    .title{
+        display: flex;
+        align-items: baseline;
+        margin-left: 6px;
+        .main{
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 1;
+            color: #00acac;
+        }
+
+        .desc{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.11;
+            color: #999999;
+            margin-left: 8px;
+        }
+    }
+}

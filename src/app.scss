@@ -1,0 +1,84 @@
+html, body{
+    margin: 0;
+    font-family: PingFangSC;
+    height: 100%;
+    width: 100%;
+}
+
+#app{
+    height: 100%;
+}
+
+.el-form--label-top .el-form-item__label {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    padding: 0 0 4px;
+    color: #cccccc;
+    line-height: 1.43;
+}
+
+.el-form-item {
+    margin-bottom: 20px;
+}
+
+.el-form-item__content {
+    /* line-height: 40px; */
+    position: relative;
+    font-size: 14px;
+}
+
+.el-input__inner {
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 32px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+    -webkit-transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.04);
+    border: solid 1px #d0d0d0;
+}
+
+.form-container{
+    background-image: url('/static/img/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 380px;
+    height: 600px;
+    margin-top: 90px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+form{
+    padding: 0 65px;
+}
+
+.button {
+    height: 32px;
+    border-radius: 10px;
+    background-color: #00acac;
+    padding: 6px 36px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #ffffff;
+    cursor: pointer;
+}
