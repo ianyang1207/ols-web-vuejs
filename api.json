@@ -1,0 +1,24 @@
+{
+    "courses": [
+        {
+            "title": "a",
+            "description": "description a"
+        },
+        {
+            "title": "b",
+            "description": "description b"
+        },
+        {
+            "title": "c",
+            "description": "description c"
+        }
+    ],
+    "login": {
+        "username": "user",
+        "password": "pwd"
+    },
+    "register": {
+        "username": "user",
+        "password": "pwd"
+    }
+}

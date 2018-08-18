@@ -15,14 +15,6 @@
         <el-input type="password" v-model="ruleForm.password2"></el-input>
       </el-col>
     </el-form-item>
-    <el-form-item label="验证码：" prop="capture">
-      <el-col :span="12">
-        <el-input v-model="ruleForm.capture"></el-input>
-      </el-col>
-      <el-col :span="6">
-        <el-button>刷新</el-button>
-      </el-col>
-    </el-form-item>
     <el-form-item>
       <el-col :span="1">
         <el-button type="primary" @click="submitForm('ruleForm')">注册</el-button>
@@ -59,9 +51,6 @@
           password2: [
             {required: true, message: '请确认密码', trigger: 'blur'}
           ],
-          capture: [
-            {required: true, message: '请输入验证码', trigger: 'blur'}
-          ]
         }
       }
     },
