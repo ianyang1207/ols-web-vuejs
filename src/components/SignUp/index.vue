@@ -90,7 +90,7 @@
               username: this.ruleForm.userName,
           password: this.ruleForm.password,
         }).then( ({ status }) => {
-          if(status === 200){
+          if(status === 201){
             this.$router.push('/');
             this.$notify({
               title: `成功`,

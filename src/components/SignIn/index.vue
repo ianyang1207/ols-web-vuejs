@@ -66,11 +66,9 @@
           username: this.ruleForm.userName,
           password: this.ruleForm.password
         }).then( ({ status, headers }) => {
-          if(status === 200){
+          if(status === 201){
             this.$router.push('/dashboard');
             axios.default.headers.Token = headers.Token;
-          }else{
-
           }
 
         }).catch( (e) => { 
